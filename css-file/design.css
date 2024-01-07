@@ -27,8 +27,8 @@ button {
   border: none;
   color: #fff;
   cursor: pointer;
-  font-size: 20px;
-  padding: 16px 32px;
+  font-size: 18px;
+  padding: 16px 36px;
   border-radius: 8px;
   background: #f00;
   font-weight: 500;
@@ -37,8 +37,7 @@ button {
 }
 
 button:hover {
-  color: #070211;
-  background: #fff;
+  background: #ff8e25;
 }
 
 /* ========== Banner section style start ========== */
@@ -146,4 +145,30 @@ button:hover {
   font-family: Inter;
   margin-bottom: 48px;
   color: rgba(255, 255, 255, 0.8);
+}
+
+/* ========== Hotel park time section style start ========== */
+.hotel-park-time-main {
+  text-align: center;
+  padding: 100px 0;
+  max-width: 1320px;
+  margin-bottom: 120px;
+  border-top-right-radius: 14px;
+  border-top-left-radius: 14px;
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+}
+
+.hotel-park-time-main .hotel-park-time h3 {
+  margin-bottom: 20px;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+}
+
+.hotel-park-time-main .hotel-park-time span {
+  color: #f00;
 }
