@@ -23,6 +23,10 @@ p {
   color: rgba(255, 255, 255, 0.8);
 }
 
+span {
+  color: #f00;
+}
+
 button {
   border: none;
   color: #fff;
@@ -37,7 +41,7 @@ button {
 }
 
 button:hover {
-  background: #ff8e25;
+  background: #ff2298;
 }
 
 /* ========== Banner section style start ========== */
@@ -153,8 +157,7 @@ button:hover {
   padding: 100px 0;
   max-width: 1320px;
   margin-bottom: 120px;
-  border-top-right-radius: 14px;
-  border-top-left-radius: 14px;
+  border-radius: 14px;
   background-image: linear-gradient(
     180deg,
     rgba(255, 0, 0, 0.1) 0%,
@@ -163,12 +166,56 @@ button:hover {
 }
 
 .hotel-park-time-main .hotel-park-time h3 {
-  margin-bottom: 20px;
   font-size: 32px;
   font-weight: 600;
   line-height: 56px;
 }
 
+.hotel-park-time-main .btn-jnw {
+  margin-top: 46px;
+}
+
 .hotel-park-time-main .hotel-park-time span {
   color: #f00;
+}
+
+.offer-content-main {
+  display: flex;
+}
+
+/* ========== Coming Soon section style start ========== */
+.offer-content-main {
+  display: flex;
+  margin: 10px auto;
+  max-width: 1320px;
+  margin-bottom: 120px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.offer-content-main .offer-column {
+  max-width: 390px;
+}
+
+.offer-content-main .offer-column h3 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  margin: 20px 0;
+}
+
+.offer-content-main .offer-column .el-img {
+  width: 300px;
+  border-radius: 463px;
+  padding: 25px;
+  border: 15px solid #f00;
+}
+
+.offer-content-main .offer-column p {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 40px;
+  line-height: 32px;
 }
