@@ -320,19 +320,20 @@ button:hover {
 
 .news-letter-main form {
   margin: 0 auto;
-  border-radius: 50px;
-  /* background: #fff; */
+  /* border-radius: 50px; */
 }
 
 .news-letter-main form input {
-  text-align: revert;
+  /* text-align: revert; */
   font-size: 18px;
   font-weight: 400;
   padding: 26px 80px;
   outline: none;
-  max-width: 648px;
+  /* max-width: 648px; */
   border: none;
-  text-align: left;
+  border-radius: 50px 0px 0px 50px;
+  /* background: #fff; */
+  /* text-align: left; */
   color: rgba(7, 2, 17, 0.3);
 }
 
@@ -347,15 +348,13 @@ button:hover {
   border-radius: 0px 50px 50px 0px;
 }
 
-/* Footer */
-
+/* ========== News-letter section style start ========== */
 footer {
   background: #070211;
 }
 
 hr {
   border: 0.5px solid rgba(255, 255, 255, 0.15);
-  /* background: rgba(255, 255, 255, 0.15); */
 }
 
 .main-con {
