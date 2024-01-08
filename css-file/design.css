@@ -247,10 +247,23 @@ button:hover {
   color: rgba(7, 2, 17, 0.6);
 }
 
+.img-container {
+  margin-bottom: 120px;
+}
+
+.fl-img {
+  display: flex;
+}
+
+.img-container .img-4 img {
+  width: 1320px;
+  height: 229px;
+  flex-shrink: 0;
+}
+
 /* ========== Portfolio section style start ========== */
 .portfolio-main {
   margin-bottom: 120px;
-  /* max-width: 800px; */
 }
 .portfolio-main .portfolio-text h3 {
   color: #f00;
@@ -318,34 +331,37 @@ button:hover {
   color: rgba(7, 2, 17, 0.6);
 }
 
-.news-letter-main form {
+.news-letter-main .form-content-main {
+  max-width: 580px;
   margin: 0 auto;
-  /* border-radius: 50px; */
 }
 
-.news-letter-main form input {
-  /* text-align: revert; */
-  font-size: 18px;
-  font-weight: 400;
-  padding: 26px 80px;
-  outline: none;
-  /* max-width: 648px; */
+.news-letter-main .form-content-main form input {
   border: none;
-  border-radius: 50px 0px 0px 50px;
-  /* background: #fff; */
-  /* text-align: left; */
+  text-align: left;
+  font-size: 18px;
+  outline: none;
+  font-weight: 400;
+  padding: 24px 48px;
+  right: -6px;
+  position: relative;
   color: rgba(7, 2, 17, 0.3);
+  border-radius: 50px 0px 0px 50px;
 }
 
-.news-letter-main .sub-btn {
-  padding: 24px;
+.news-letter-main .form-content-main .sub-btn {
   color: #fff;
-  position: absolute;
+  border: none;
   font-size: 20px;
   font-weight: 400;
+  padding: 22px 40px;
   background: #f00;
-  text-transform: none;
+  text-transform: capitalize;
   border-radius: 0px 50px 50px 0px;
+}
+
+.news-letter-main .form-content-main .sub-btn:hover {
+  background: #070211;
 }
 
 /* ========== News-letter section style start ========== */
@@ -380,6 +396,7 @@ hr {
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
+  text-align: start;
   line-height: 40px;
 }
 
@@ -390,6 +407,10 @@ hr {
 
 .footer-social .social-icon img {
   margin-right: 22px;
+}
+
+.cnt-info p img {
+  margin-right: 16px;
 }
 
 .footer-sub {
