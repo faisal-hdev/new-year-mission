@@ -290,7 +290,120 @@ button:hover {
 
 /* ========== News-letter section style start ========== */
 .news-letter-main {
+  padding: 80px 0;
+  text-align: center;
+  border-radius: 16px;
+  margin-bottom: 120px;
+  background: rgba(255, 0, 0, 0.05);
 }
 
-.news-letter-main .news-letter {
+.news-letter-main .news-letter * {
+  margin-bottom: 24px;
+}
+
+.news-letter-main .news-letter h3 {
+  color: #070211;
+  font-size: 48px;
+  font-family: Merriweather;
+  font-weight: 900;
+}
+
+.news-letter-main .news-letter p {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 48px;
+  color: rgba(7, 2, 17, 0.6);
+}
+
+.news-letter-main form {
+  margin: 0 auto;
+  border-radius: 50px;
+  /* background: #fff; */
+}
+
+.news-letter-main form input {
+  text-align: revert;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 26px 80px;
+  outline: none;
+  max-width: 648px;
+  border: none;
+  text-align: left;
+  color: rgba(7, 2, 17, 0.3);
+}
+
+.news-letter-main .sub-btn {
+  padding: 24px;
+  color: #fff;
+  position: absolute;
+  font-size: 20px;
+  font-weight: 400;
+  background: #f00;
+  text-transform: none;
+  border-radius: 0px 50px 50px 0px;
+}
+
+/* Footer */
+
+footer {
+  background: #070211;
+}
+
+hr {
+  border: 0.5px solid rgba(255, 255, 255, 0.15);
+  /* background: rgba(255, 255, 255, 0.15); */
+}
+
+.main-con {
+  padding: 120px 0;
+}
+
+.footer-info-main {
+  display: flex;
+  margin-bottom: 50px;
+  justify-content: space-between;
+}
+
+.footer-info-main .Street-ad {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 40px;
+}
+
+.footer-info-main .cnt-info p {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.footer-social {
+  text-align: center;
+  margin: 48px 0;
+}
+
+.footer-social .social-icon img {
+  margin-right: 22px;
+}
+
+.footer-sub {
+  display: flex;
+  margin-top: 48px;
+  justify-content: space-between;
+}
+
+.main-con .footer-sub p {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
 }
