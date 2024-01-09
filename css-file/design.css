@@ -223,6 +223,7 @@ button:hover {
 .holidays-container {
   text-align: center;
   margin: 120px auto;
+  margin-bottom: 0;
   max-width: 1068px;
 }
 
@@ -248,11 +249,33 @@ button:hover {
 }
 
 .img-container {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   margin-bottom: 120px;
 }
 
 .fl-img {
   display: flex;
+  position: relative;
+}
+
+.img-1 {
+  left: 100px;
+  top: 300px;
+  position: relative;
+}
+
+.img-3 {
+  top: 4px;
+  right: -46px;
+  position: relative;
+}
+
+.img-5 {
+  top: 400px;
+  right: 225px;
+  position: relative;
 }
 
 .img-container .img-4 img {
