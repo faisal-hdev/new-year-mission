@@ -11,7 +11,6 @@
 
 /* ========== Common style ========== */
 .container {
-  width: 90%;
   margin: 0 auto;
   max-width: 1320px;
 }
@@ -316,6 +315,12 @@ button:hover {
 .portfolio-main .portfolio-img-column .p-img img {
   max-width: 416px;
   border-radius: 16px;
+  transition: all 0.3s;
+}
+
+.portfolio-img-column .p-img img:hover {
+  transform: scale(1.2);
+  z-index: 2;
 }
 
 /* ========== News-letter section style start ========== */
